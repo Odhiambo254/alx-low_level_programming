@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - entry point.
+/**
+ * main - entry point of my program
+ *
  * Return:always 0 (success)
  */
 
