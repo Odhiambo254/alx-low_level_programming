@@ -16,10 +16,10 @@ int main(void)
 	letter = 'A';
 
 	while (letter <= 'A')
-		putchar(letter);
-		letter++;
+	putchar(letter);
+	letter++;
 		{
-			putchar('\n');
-			return (0);
+		putchar('\n');
+		return (0);
 		}
 }
