@@ -1,18 +1,21 @@
-#include <main.h>
+#include "main.h"
 /**
-  *main-entry point
-  *
-  *Return:always -0
+  *  main - Print "_putchar" on std output
+  *  Return: Always 0 (success)
   */
 int main(void)
 {
-	int n;
-	char p[] = "_putchar";
 
-	for (n = 0; n <= 8; n++)
-	{
-	putchar(p[n]);
-	}
-	putchar('\n');
-	return (0);
+	_putchar('_');
+	_putchar('p');
+
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+											return (0);
 }
