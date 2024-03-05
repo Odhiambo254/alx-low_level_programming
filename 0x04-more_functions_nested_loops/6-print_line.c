@@ -2,7 +2,7 @@
 
 /**
   *print_line- printing lines
-  *
+  *@n-number of times
   *return:void
   */
 void print_line(int n)
